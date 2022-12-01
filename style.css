@@ -1,0 +1,267 @@
+body{
+    background-color: black;
+}
+div{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    border: 10px  solid black;
+    margin: 1px ;
+    padding: 10px;
+    background-color: black;
+    color: rgb(12, 178, 42);
+}
+h3{
+    text-align: center;
+    color: yellow;
+    font-size: 50px;
+}
+
+#question{
+    color: rgb(12, 178, 42) ;
+    text-align: center;
+}
+#answer {
+    
+    color: red;
+    text-align: center;
+}
+#value{
+    color: rgb(12, 178, 42) ;
+    text-align: center;
+}
+
+
+#button-100  {
+    grid-area: button-100;
+    background-color: rgb(12, 178, 42);
+}
+
+#button-101 {
+    grid-area: button-101;
+    background-color: rgb(12, 178, 42);
+
+}
+
+#button-102 {
+    grid-area: button-102;
+    background-color: rgb(12, 178, 42);
+
+}
+
+#button-103 {
+    grid-area: button-103;
+    background-color: rgb(12, 178, 42);
+
+}
+
+#button-104 {
+    grid-area: button-104;
+    background-color: rgb(12, 178, 42);
+
+}
+
+#button-105 {
+    grid-area: button-105;
+    background-color: rgb(12, 178, 42);
+
+}
+
+#button-200 {
+    grid-area: button-200;
+    background-color: rgb(12, 178, 42);
+
+}
+
+#button-201 {
+    grid-area: button-201;
+    background-color: rgb(12, 178, 42);
+
+}
+
+#button-202 {
+    grid-area: button-202;
+    background-color: rgb(12, 178, 42);
+
+}
+
+#button-203 {
+    grid-area: button-203;
+    background-color: rgb(12, 178, 42);
+
+}
+
+#button-204 {
+    grid-area: button-204;
+    background-color: rgb(12, 178, 42);
+
+}
+
+#button-205 {
+    grid-area: button-205;
+    background-color: rgb(12, 178, 42);
+
+}
+
+#button-300 {
+    grid-area: button-300;
+    background-color: rgb(12, 178, 42);
+
+}
+
+#button-301 {
+    grid-area: button-301;
+    background-color: rgb(12, 178, 42);
+
+}
+
+#button-302 {
+    grid-area: button-302;
+    background-color: rgb(12, 178, 42);
+
+}
+
+#button-303 {
+    grid-area: button-303;
+    background-color: rgb(12, 178, 42);
+
+}
+
+#button-304 {
+    grid-area: button-304;
+    background-color: rgb(12, 178, 42);
+
+}
+
+#button-305 {
+    grid-area: button-305;
+    background-color: rgb(12, 178, 42);
+
+}
+
+#button-400 {
+    grid-area: button-400;
+    background-color: rgb(12, 178, 42);
+
+}
+
+#button-401 {
+    grid-area: button-401;
+    background-color: rgb(12, 178, 42);
+
+}
+
+#button-402 {
+    grid-area: button-402;
+    background-color: rgb(12, 178, 42);
+
+}
+
+#button-403 {
+    grid-area: button-403;
+    background-color: rgb(12, 178, 42);
+
+}
+
+#button-404 {
+    grid-area: button-404;
+    background-color: rgb(12, 178, 42);
+
+}
+
+#button-405 {
+    grid-area: button-405;
+    background-color: rgb(12, 178, 42);
+
+}
+
+#button-500 {
+    grid-area: button-500;
+    background-color: rgb(12, 178, 42);
+
+}
+
+#button-501 {
+    grid-area: button-501;
+    background-color: rgb(12, 178, 42);
+
+}
+
+#button-502 {
+    grid-area: button-502;
+    background-color: rgb(12, 178, 42);
+
+}
+
+#button-503 {
+    grid-area: button-503;
+    background-color: rgb(12, 178, 42);
+
+}
+
+#button-504 {
+    grid-area: button-504;
+    background-color: rgb(12, 178, 42);
+
+}
+
+#button-505 {
+    grid-area: button-505;
+    background-color: rgb(12, 178, 42);
+
+}
+
+#button-600 {
+    grid-area: button-600;
+    background-color: rgb(12, 178, 42);
+
+}
+
+#button-601 {
+    grid-area: button-601;
+    background-color: rgb(12, 178, 42);
+
+}
+
+#button-602 {
+    grid-area: button-602;
+    background-color: rgb(12, 178, 42);
+
+}
+
+#button-603 {
+    grid-area: button-603;
+    background-color: rgb(12, 178, 42);
+
+}
+
+#button-604 {
+    grid-area: button-604;
+    background-color: rgb(12, 178, 42);
+
+}
+
+#button-605 {
+    grid-area: button-605;
+    background-color: rgb(12, 178, 42);
+
+}
+
+#jep {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr  ;
+        grid-template-areas: 
+        "button-100 button-101 button-102 button-103 button-104 button-105"
+        "button-200 button-201 button-202 button-203 button-204 button-205"
+        "button-300 button-301 button-302 button-303 button-304 button-305"
+        "button-400 button-401 button-402 button-403 button-404 button-405"
+        "button-500 button-501 button-502 button-503 button-504 button-505"
+        "button-600 button-601 button-602 button-603 button-604 button-605"
+    }
+    
