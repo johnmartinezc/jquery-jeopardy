@@ -31,22 +31,17 @@ score.innerText = 0
 
 function buttonClick(button){
     for (let i = 0; i < button.length; i++) {
-        document.querySelectorAll(button)[i].addEventListener("click", function(){ 
-            
+        document.querySelectorAll(button)[i].addEventListener("click", function(e){ 
+
         paraQ.innerText = switches(button[i])[i].question
         paraA = switches(button[i])[i].answer
         paraV.innerText = switches(button[i])[i].value  
+
         console.log(paraA.innerText)
-
         console.log(paraA.innert =switches(button[i])[i].answer)
-    });
-       
-   
+        });
     }
-
-
-    }
-
+}
     buttonClick(multiButtons)
 
     
@@ -78,21 +73,11 @@ function buttonClick(button){
     })
 
    
-
-
-
-
-   
-
-
- 
-
-
-
-
-function qa(){
-
-}
+    // function buttonClicked(button){
+    //     button.setAttribute('disabled','disabled')
+    //     button.classList.remove('btn-primary')
+    //     button.classList.add('btn-secondary')
+    // }
 
 
 
